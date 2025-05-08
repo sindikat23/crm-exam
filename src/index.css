@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #5a00db;
+    --color-darkprimary: #0e041d;
+    --color-muted: #90a0b7;
+    --color-danger: #f7685b;
+    --color-success: #3f8600
+  }
+  
+  *{
+    font-family: "Nunito Sans", sans-serif !important;
+  }
+  
+  .ant-form-item {
+    margin: 0 !important;
+    margin-bottom: 4px !important;
+  }
+  
+  .ant-form-item-required {
+    font-size: 14px !important;
+    @apply text-muted;
+  }
+  
+  .profile-popover .ant-list-item {
+    padding: 4px 8px !important;
+    @apply rounded-lg;
+  }
+  .profile-popover .ant-list-item:hover {
+    color: white !important;
+  }
+  
+  .ant-form-item-label label{
+    font-size: 12px !important;
+  }
+  
+  .ant-form-item-label{
+    padding-bottom: 4px !important;
+  }
+  

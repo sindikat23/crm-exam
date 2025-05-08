@@ -1,0 +1,13 @@
+export const register_director = "/api/v1/accounts/register/";
+export const login = "/api/v1/accounts/login/"
+export const account_me = "/api/v1/accounts/me/"
+export const company_me = "/api/v1/company/get/"
+export const shift_list = "/api/v1/company/shifts"
+export const shift_post = "/api/v1/company/shift-create/"
+export const shift_put = "/api/v1/company/shift-detail"
+export const department_list = "/api/v1/company/departments"
+export const department_post = "/api/v1/company/department-create/"
+export const employees = "/api/v1/employee/employees/"
+export const clientss = "/api/v1/company/clients/"
+export const branch_list = "/api/v1/company/get/"
+export const branch_post = "/api/v1/company/create-branch/"
