@@ -7,7 +7,6 @@ const initailValue:IProfile = {
   id: 0,
   full_name: "",
   avatar: "",
-  gender: "male",
   birth_date: "",
   email: "",
   salary_type: "",

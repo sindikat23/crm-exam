@@ -4,8 +4,8 @@ import { Upload } from "antd";
 import type { UploadProps } from "antd";
 
 const UploadInput: React.FC = () => {
-  const [loading, setLoading] = useState(false);
-  const [imageUrl, setImageUrl] = useState<string[]>([]);
+  const [loading, ] = useState(false);
+  const [imageUrl,] = useState<string[]>([]);
 
   const handleChange: UploadProps["onChange"] = (info) => {
     console.log(info);
@@ -27,7 +27,7 @@ const UploadInput: React.FC = () => {
       onChange={handleChange}
     >
       {imageUrl ? (
-        <img src={imageUrl} alt="avatar" style={{ width: "100%" }} />
+        <img src="" alt="avatar" style={{ width: "100%" }} />
       ) : (
         uploadButton
       )}
